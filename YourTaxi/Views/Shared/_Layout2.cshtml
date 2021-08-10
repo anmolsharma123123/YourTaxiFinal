@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="~/images/favicon.ico">
+    <link rel="shortcut icon" href="~/images/favicon.ico" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/camera.css">
+    <link rel="stylesheet" href="~/css/owl.carousel.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <script src="~/js/site.js"></script>
+    <script src="~/js/jquery.js"></script>
+    <script src="~/js/jquery-migrate-1.2.1.js"></script>
+    <script src="~/js/script.js"></script>
+    <script src="~/js/superfish.js"></script>
+    <script src="~/js/jquery.ui.totop.js"></script>
+    <script src="~/js/jquery.equalheights.js"></script>
+    <script src="~/js/jquery.mobilemenu.js"></script>
+    <script src="~/js/jquery.easing.1.3.js"></script>
+    <script src="~/js/owl.carousel.js"></script>
+    <script src="~/js/camera.js"></script>
+    <script src="~/js/jquery.mobile.customized.min.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body class="page1" id="top">
+    <div class="main">
+        <!--==============================header=================================-->
+        <header>
+            <div class="menu_block ">
+                <div class="container_12">
+                    <div class="grid_12">
+                        <nav class="horizontal-nav full-width horizontalNav-notprocessed">
+                            <ul class="sf-menu">
+                                <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a> </li>
+                                <li><a asp-area="" asp-controller="Cars" asp-action="Index">Available Taxis/Tours</a></li>
+                                <li><a asp-area="" asp-controller="UserCars" asp-action="Index">Your Tours</a></li>
+                                <li><a asp-area="" asp-controller="ContactUs" asp-action="Create">Contact</a></li>
+                                <li><a asp-area="" asp-controller="Login" asp-action="AdminLogin">Admin Login</a></li>
+                                <li><a asp-area="" asp-controller="Login" asp-action="UserLogin">User Login</a></li>
+                                <li><a asp-area="" asp-controller="Login" asp-action="Logout">Logout</a></li>
+                            </ul>
+                        </nav>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="container_12">
+                <div class="grid_12">
+                    <h1>
+                        <a href="index.html">
+                            <img src="~/images/logo.png" alt="Your Happy Family">
+                        </a>
+                    </h1>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </header>
+        <section id="body">
+            <div class="container">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
+        </section>
+        <div class="container_12">
+            <div class="grid_4">
+                <div class="banner">
+                    <div class="maxheight">
+                        <div class="banner_title">
+                            <img src="~/images/icon1.png" alt="">
+                            <div class="extra_wrapper">
+                                Fast&amp;
+                                <div class="color1">Safe</div>
+                            </div>
+                        </div>
+                        Dorem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctor, leo magna sodales felis, quis malesuad
+                        <a href="#" class="fa fa-share-square"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_4">
+                <div class="banner">
+                    <div class="maxheight">
+                        <div class="banner_title">
+                            <img src="~/images/icon2.png" alt="">
+                            <div class="extra_wrapper">
+                                Best
+                                <div class="color1">Prices</div>
+                            </div>
+                        </div>
+                        Hem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctor, leo magna sodales felis, quis malesuader
+                        <a href="#" class="fa fa-share-square"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_4">
+                <div class="banner">
+                    <div class="maxheight">
+                        <div class="banner_title">
+                            <img src="~/images/icon3.png" alt="">
+                            <div class="extra_wrapper">
+                                Package
+                                <div class="color1">Delivery</div>
+                            </div>
+                        </div>
+                        Kurem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctor, leo magna sodales felis, quis malesuki
+                        <a href="#" class="fa fa-share-square"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="c_phone">
+            <div class="container_12">
+                <div class="grid_12">
+                    <div class="fa fa-phone"></div>+ 1800 559 6580
+                    <span>ORDER NOW!</span>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--==============================Content=================================-->
+
+    </div>
+    <!--==============================footer=================================-->
+    <footer>
+        <div class="container_12">
+            <div class="grid_12">
+                <div class="f_phone"><span>Call Us:</span> + 1800 559 6580</div>
+                <div class="socials">
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-google-plus"></a>
+                </div>
+                <div class="copy">
+                    <div class="st1">
+                        <div class="brand">Tour<span class="color1">T</span>axi </div>
+                        &copy; 2014	| <a href="#">Privacy Policy</a>
+                    </div> Website designed by <a href="" rel="nofollow">yourtaxi.com</a>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </footer>
+</body>
+</html>

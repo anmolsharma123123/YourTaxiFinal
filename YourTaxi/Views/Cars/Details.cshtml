@@ -1,0 +1,45 @@
+﻿@model YourTaxi.Models.Cars
+
+@{ ViewData["Taxi"] = "Detail of Taxi"; }
+@{ Layout = "_Layout2"; }
+<br />
+<div>
+    <h4>Details</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CarName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CarName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CarModel)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CarModel)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.From)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.From)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.To)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.To)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" type="button" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" type="button" class="btn btn-warning">Back to List</a>
+</div>
